@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./default.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js" integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<div id="mouseShadow"></div>
+  <body class="flex bg-dark  justify-center">
+    <div class="p-8 font-['Roboto'] sm:p-0 max-w-[800px] w-full">
+      <nav dir="rtl" class=" justify-between items-center mt-7 backdrop-blur-sm hidden sm:flex">
+        <i class="fa-brands fa-github text-gray-300 text-3xl"></i>
+        <ul  data-aos="fade-right" data-aos-duration="1000" class="relative flex list-none gap-6 py-3 px-0">
+          <div class="hover-bg absolute w-24 h-10 bg-white/10 z-0 rounded-lg"></div>
+            <li><a class="relative flex items-center gap-2 text-gray-200  py-2 px-4 rounded-lg z-2 transition duration-300" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                  </svg>
+                  Home
+            </a></li>
+            <li id="link2"><a class="relative z-2 flex items-center gap-2 text-gray-200 py-2 px-4 rounded-lg" href="gallery/">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z" />
+                  </svg>
+                  Gallery
+            </a></li>
+        </ul>
+      </nav>
+      <section class="flex items-start flex-col mt-20">
+        <h1 class=" text-center font-bold text-white text-4xl mt-7">Amir Azarbahram</h1>
+        <span class="text-[1.2rem] mt-3 text-white/60">Front-End Developer</span>
+        <div class="mt-9 flex gap-7">
+          <a class="flex items-center gap-6 button-rgb text-white/80 bg-dark py-3 px-6 rounded-lg" href="">
+              Resume
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m18.375 12.739-7.693 7.693a4.5 4.5 0 0 1-6.364-6.364l10.94-10.94A3 3 0 1 1 19.5 7.372L8.552 18.32m.009-.01-.01.01m5.699-9.941-7.81 7.81a1.5 1.5 0 0 0 2.112 2.13" />
+              </svg>                  
+          </a>
+          <a class="flex items-center text-white/80 gap-3" href="">
+              Contact Me
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+      </div>      
+      </section>
+      <section class="mt-15">
+        <h2 class="text-white text-3xl font-black">About</h2>
+        <p data-aos="fade-up" class="about text-white/90 mt-6 leading-8 min-h-[160px]"></p>
+      </section>
+      <section class="mt-5">
+        <h2 class="text-white text-3xl font-black">Skills</h2>
+        <main class="flex flex-wrap mt-10 gap-4">
+          <div data-aos="fade-up" data-aos-delay="100" class="flex items-center gap-4 text-[#e44d26] border-1 border-[#e44d26]/30 py-2 px-4 text-sm rounded-3xl  bg-[#e44d26]/10">
+            HTML
+            <img class="h-4" src="https://cdn.iconscout.com/icon/free/png-256/free-html-5-icon-svg-download-png-1175208.png" alt="">
+          </div>
+          <div data-aos="fade-up" data-aos-delay="300" class="flex items-center gap-4 text-[#1b73ba] border-1 border-[#1b73ba]/30 py-2 px-4 text-sm rounded-3xl  bg-[#1b73ba]/10">
+            CSS
+            <img class="h-4" src="https://ph.cleanpng.com/downloadpng/3284828eea630e8155d37e6127afa70f/L4Dxd6FrigIwe5dmR9VBYjBnSLW9U8VnapdofKkBZUK2QYXsgvI3OJY5S6ltNEi2SXB3jvc=.png" alt="">
+          </div>
+          <div data-aos="fade-up" data-aos-delay="500" class="flex items-center gap-4 text-[#d4b830] border-1 border-[#d4b830]/30 py-2 px-4 text-sm rounded-3xl  bg-[#d4b830]/10">
+            JavaScript
+            <img class="h-4" src="https://david-chiang.netlify.app/assets/javascript-logo-8892AEFCAC-seeklogo.com-9cb7768e.png" alt="">
+          </div>
+          <div data-aos="fade-up" data-aos-delay="700" class="flex items-center gap-4 text-[#cb3433] border-1 border-[#cb3433]/30 py-2 px-4 text-sm rounded-3xl  bg-[#cb3433]/10">
+            NPM
+            <img class="h-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1200px-Npm-logo.svg.png" alt="">
+          </div>
+          <div data-aos="fade-up" data-aos-delay="900" class="flex items-center gap-4 text-[#7b08f7] border-1 border-[#7b08f7]/30 py-2 px-4 text-sm rounded-3xl  bg-[#7b08f7]/10">
+            Bootstrap
+            <img class="h-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" alt="">
+          </div>
+          <div data-aos="fade-up" data-aos-delay="1100" class="flex items-center gap-4 text-[#34bdf7] border-1 border-[#34bdf7]/30 py-2 px-4 text-sm rounded-3xl  bg-[#34bdf7]/10">
+            Tailwind
+            <img class="h-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png" alt="">
+          </div>
+          <div data-aos="fade-up" data-aos-delay="1300" class="flex items-center gap-4 text-[#f14c17] border-1 border-[#f14c17]/30 py-2 px-4 text-sm rounded-3xl  bg-[#f14c17]/10">
+            Figma
+            <img class="h-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/960px-Figma-logo.svg.png" alt="">
+          </div>
+          <div data-aos="fade-up" data-aos-delay="1500" class="flex items-center gap-4 text-[#e8e8e8] border-1 border-[#e8e8e8]/30 py-2 px-4 text-sm rounded-3xl  bg-[#e8e8e8]/10">
+            GithHub
+            <img class="h-4" src="https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/github-512.png" alt="">
+          </div>
+          <div data-aos="fade-up" data-aos-delay="1700" class="flex items-center gap-4 text-[#dd4b35] border-1 border-[#dd4b35]/30 py-2 px-4 text-sm rounded-3xl  bg-[#dd4b35]/10">
+            Git
+            <img class="h-4" src="https://www.svgrepo.com/show/303548/git-icon-logo.svg" alt="">
+          </div>
+        </main>
+      </section>
+      <section class="my-10">
+        <h2 class="text-white text-3xl font-black">Work Experience</h2>
+        <main class=" overflow-hidden mt-15 border-l-1 border-l-white/30 pl-5 mr-0 sm:ml-10 sm:pl-10">          
+          <div data-aos="zoom-out-right" class="text-white p-7 border-1 border-white/10 max-w-[600px] rounded-lg mt-15">
+            <span class="flex justify-between">
+              <h3 class="text-lg">Front End Developer</h3>
+              <p class="text-nowrap text-white/50">2024 - 2025</p>
+            </span>
+            <h4 class="flex items-center mt-1 text-white/90 text-sm mb-5">Anisa Distribution</h4>
+          
+            <p class="my-6">
+              <i class="fa-solid fa-angle-right"></i>
+              Designed and developed main website pages focusing on modern and user-friendly UI, including interactive sections and dynamic forms, along with updating and optimizing the admin panel to enhance manager productivity.
+            </p>
+            <p class="my-6">
+              <i class="fa-solid fa-angle-right"></i>
+              Ensured full responsiveness of the website across all devices and browsers, optimized loading speed, and improved user experience for all visitors.
+            </p>
+          
+            <span class="flex flex-wrap gap-2 mb-2 mt-10">
+              <div class="border-1 border-white/30 w-fit py-2 px-4 rounded-3xl text-[13px]">HTML</div>
+              <div class="border-1 border-white/30 w-fit py-2 px-4 rounded-3xl text-[13px]">CSS</div>
+              <div class="border-1 border-white/30 w-fit py-2 px-4 rounded-3xl text-[13px]">JavaScript</div>
+            </span>
+          </div>          
+          <div data-aos="zoom-out-right" class="text-white p-7 border-1 border-white/10 max-w-[600px] rounded-lg mt-15">
+            <span class="flex justify-between">
+              <h3 class="text-lg">Front End Developer</h3>
+              <p class="text-nowrap text-white/50">2024</p>
+            </span>
+            <h4 class="flex items-center mt-1 text-white/90 text-sm mb-5">NextWeb Co</h4>
+          
+            <p class="my-6">
+              <i class="fa-solid fa-angle-right"></i>
+              Developed and implemented main website pages with modern and interactive design, including animations, dynamic forms, and engaging elements to enhance UI attractiveness and usability.
+            </p>
+            <p class="my-6">
+              <i class="fa-solid fa-angle-right"></i>
+              Optimized the website for all devices and browsers, improving loading speed and user experience, creating a smooth and pleasant interaction for visitors.
+            </p>
+            <p class="my-6">
+              <i class="fa-solid fa-angle-right"></i>
+              Collaborated closely with the design and content team to ensure consistent colors, fonts, and layouts, providing creative solutions for design challenges.
+            </p>
+          
+            <span class="flex flex-wrap gap-2 mb-2 mt-10">
+              <div class="border-1 border-white/30 w-fit py-2 px-4 rounded-3xl text-[13px]">HTML</div>
+              <div class="border-1 border-white/30 w-fit py-2 px-4 rounded-3xl text-[13px]">CSS</div>
+              <div class="border-1 border-white/30 w-fit py-2 px-4 rounded-3xl text-[13px]">JavaScript</div>
+              <div class="border-1 border-white/30 w-fit py-2 px-4 rounded-3xl text-[13px]">Tailwind</div>
+              <div class="border-1 border-white/30 w-fit py-2 px-4 rounded-3xl text-[13px]">Figma</div>
+            </span>
+          </div>
+          <div data-aos="zoom-out-right" class="text-white p-7 border-1 border-white/10 max-w-[600px] rounded-lg mt-15 mb-2">
+            <span class="flex justify-between">
+              <h3 class="text-lg">Front End Developer</h3>
+              <p class="text-nowrap text-white/50">2023 - 2024</p>
+            </span>
+            <h4 class="flex items-center mt-1 text-white/90 text-sm mb-5">K.T.T Co</h4>
+          
+            <p class="my-6">
+              <i class="fa-solid fa-angle-right"></i>
+              Fully developed 4 main website pages including UI design and implementation of interactive components, along with updating and optimizing the admin panel layout.
+            </p>
+            <p class="my-6">
+              <i class="fa-solid fa-angle-right"></i>
+              Implemented responsive design to ensure the website displays correctly across all devices and screen resolutions.
+            </p>
+          
+            <span class="flex flex-wrap gap-2 mb-2 mt-10">
+              <div class="border-1 border-white/30 w-fit py-2 px-4 rounded-3xl text-[13px]">HTML</div>
+              <div class="border-1 border-white/30 w-fit py-2 px-4 rounded-3xl text-[13px]">CSS</div>
+              <div class="border-1 border-white/30 w-fit py-2 px-4 rounded-3xl text-[13px]">AJAX</div>
+              <div class="border-1 border-white/30 w-fit py-2 px-4 rounded-3xl text-[13px]">JavaScript</div>
+            </span>
+          </div>          
+        </main>
+      </section>  
+    </div>
+    <script>
+        AOS.init();
+      </script>
+      <script src="assets/script.js"></script>
+  </body>
+</html>
