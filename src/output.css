@@ -195,6 +195,9 @@
   .z-2 {
     z-index: 2;
   }
+  .z-20 {
+    z-index: 20;
+  }
   .my-5 {
     margin-block: calc(var(--spacing) * 5);
   }
